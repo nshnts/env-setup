@@ -1,2 +1,3 @@
-# env-setup
-Setup the environment (eg. bash, emacs, tmux, etc)
+# Setup Instructions
+* wget https://raw.githubusercontent.com/nsatyarthy/env-setup/main/setup.sh
+* bash setup.sh
