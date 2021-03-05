@@ -1,0 +1,16 @@
+network:
+  ethernets:
+    eth0:
+      optional: true
+      match:
+        macaddress: "xx:xx:xx:xx:xx:xx"
+      set-name: eth0
+      dhcp4: no
+      addresses: [10.10.10.1/24]
+  wifis:
+    wlan0:
+      optional: true
+      access-points:
+        "your-ssid-here":
+          password: "your-password-here"
+      dhcp4: true
