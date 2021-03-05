@@ -1,0 +1,34 @@
+set_aliases_general() {
+    alias em="emacs -nw"
+    alias c="clear"
+    alias v="vim"
+    alias ida="~/idapro-7.5/ida64 &"
+    alias clion="~/apps/clion-2020.1.1/bin/clion.sh &"
+    alias nasm="nasm -felf64"
+
+
+}
+
+set_aliases_git() {
+    alias gits="git status"
+    alias gitd="git diff"
+}
+
+set_path() {
+    if [ -d "/snap/bin" ] ; then
+        PATH="$PATH:/snap/bin"
+    fi
+}
+
+set_colors() {
+    red=$(tput setaf 1)
+    blue=$(tput setaf 4)
+    green=$(tput setaf 2)
+    yellow=$(tput setaf 3)
+    bold=$(tput bold)
+
+    reset=$(tput sgr0)
+    export PS1="[\u@\h \[$bold\]\[$yellow\]\W\[$reset\]]\$ "
+    LS_COLORS=$LS_COLORS:'di=1;33:' ; export LS_COLORS
+    # For root: export PS1="[\[$bold\]\[$red\]\u@\h\[$reset\] \W\[$reset\]]\$ "
+}
