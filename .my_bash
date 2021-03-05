@@ -32,3 +32,8 @@ set_colors() {
     LS_COLORS=$LS_COLORS:'di=1;33:' ; export LS_COLORS
     # For root: export PS1="[\[$bold\]\[$red\]\u@\h\[$reset\] \W\[$reset\]]\$ "
 }
+
+set_aliases_general
+set_aliases_git
+set_path
+set_colors
