@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+sudo apt install emacs git tmux nmap traceroute nfs-common openssh-server golang
+
 BASH_FILE=${HOME}/.my_bash
 EMACS_FILE=${HOME}/.emacs
 TMUX_FILE=${HOME}/.tmux.conf
