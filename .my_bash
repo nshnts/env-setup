@@ -6,7 +6,7 @@ set_aliases_general() {
     alias clion="~/apps/clion-2020.1.1/bin/clion.sh &"
     alias nasm="nasm -felf64"
     
-    export FCEDIT=emacs
+    export EDITOR=emacs
 }
 
 set_aliases_git() {
