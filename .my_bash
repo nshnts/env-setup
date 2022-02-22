@@ -5,8 +5,8 @@ set_aliases_general() {
     alias ida="~/idapro-7.5/ida64 &"
     alias clion="~/apps/clion-2020.1.1/bin/clion.sh &"
     alias nasm="nasm -felf64"
-
-
+    
+    export FCEDIT=emacs
 }
 
 set_aliases_git() {
@@ -16,7 +16,7 @@ set_aliases_git() {
 
 set_path() {
     if [ -d "/snap/bin" ] ; then
-        PATH="$PATH:/snap/bin"
+        export PATH="$PATH:/snap/bin"
     fi
 }
 
