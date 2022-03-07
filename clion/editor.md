@@ -10,12 +10,12 @@
   #end
   ```
 
-* Editor -> Code Style -> C/C++ -> Header Guard Style should be:
+* Editor -> Code Style -> C/C++ -> "Header Guard Style" should be:
   ```
   _${FILE_NAME}_${EXT}_
   ```
 
-* Editor -> File and Code Templates -> Files -> C++ Class Header should be:
+* Editor -> File and Code Templates -> Files -> "C++ Class Header" should be:
   ```
   #parse("C File Header.h")
   #[[#ifndef]]# ${INCLUDE_GUARD}
