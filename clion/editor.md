@@ -14,3 +14,21 @@
   ```
   _${FILE_NAME}_${EXT}_
   ```
+
+* Editor -> File and Code Templates -> Files -> C++ Class Header should be:
+  ```
+  #parse("C File Header.h")
+  #[[#ifndef]]# ${INCLUDE_GUARD}
+  #[[#define]]# ${INCLUDE_GUARD}
+
+  ${NAMESPACES_OPEN}
+
+  class ${NAME} {
+
+  };
+
+  ${NAMESPACES_CLOSE}
+
+  #[[#endif]]# // ${INCLUDE_GUARD}
+
+  ```
