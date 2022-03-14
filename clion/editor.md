@@ -18,8 +18,7 @@
 * Editor -> File and Code Templates -> Files -> "C++ Class Header" should be:
   ```
   #parse("C File Header.h")
-  #[[#ifndef]]# ${INCLUDE_GUARD}
-  #[[#define]]# ${INCLUDE_GUARD}
+  #pragma once
 
   ${NAMESPACES_OPEN}
 
@@ -28,7 +27,5 @@
   };
 
   ${NAMESPACES_CLOSE}
-
-  #[[#endif]]# // ${INCLUDE_GUARD}
 
   ```
