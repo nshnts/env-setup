@@ -15,9 +15,8 @@ set_aliases_git() {
 }
 
 set_path() {
-    if [ -d "/snap/bin" ] ; then
-        export PATH="$PATH:/snap/bin"
-    fi
+    export GOPATH=$HOME/go
+    export PATH=$PATH:$GOPATH/bin
 }
 
 set_colors() {
