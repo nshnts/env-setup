@@ -56,6 +56,25 @@
           "instructor": "derrick and jamie"
         }
       ]
+    },
+
+    {
+      "date": "21 Oct 2022",
+      "day": "tuesday",
+      "lessons": [
+        {
+          "dance": "bachata",
+          "time": "19:30 - 20:45",
+          "title": "bachata level 4A (class 1 of 4)",
+          "instructor": "derrick and jamie"
+        },
+        {
+          "dance": "salsa",
+          "time": "21:15 - 22:30",
+          "title": "salsa (open)",
+          "instructor": "derrick and jamie"
+        }
+      ]
     }
 
   ]
