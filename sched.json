@@ -1,0 +1,32 @@
+[
+  {
+    description: [
+      { dance: 'bachata', time: '19:30 - 20:45' , title: 'bachata level 2B (class 4 of 4)', instructor: 'derrick and nina' }
+    ],
+    title: '18 Oct 2022',
+    day: 'tuesday'
+  },
+  {
+    description: [
+      { dance: 'bachata', time: '19:30 - 20:45' , title: 'bachata level 4A (class 1 of 4)', instructor: 'derrick and jamie' },
+      { dance: 'bachata', time: '21:15 - 22:30' , title: 'bachata (open)', instructor: 'derrick and jamie' }
+    ],
+    title: '19 Oct 2022',
+    day: 'wednesday'
+  },
+  {
+    description: [
+      { dance: 'bachata', time: '19:30 - 20:45' , title: 'bachata level 6B (class 3 of 4)', instructor: 'derrick and sandy' }
+    ],
+    title: '20 Oct 2022',
+    day: 'thursday'
+  },
+  {
+    description: [
+      { dance: 'bachata', time: '20:00 - 21:00' , title: 'dominican bachata (open)', instructor: 'derrick and alfreda' },
+      { dance: 'bachata', time: '21:00 - 22:00' , title: 'sensual bachata (open)', instructor: 'derrick and mel ann' },
+    ],
+    title: '21 Oct 2022',
+    day: 'friday'
+  }
+]
