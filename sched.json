@@ -1,6 +1,6 @@
 [
   {
-    description: [
+    'description': [
       { dance: 'bachata', time: '19:30 - 20:45' , title: 'bachata level 2B (class 4 of 4)', instructor: 'derrick and nina' }
     ],
     title: '18 Oct 2022',
