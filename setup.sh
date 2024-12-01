@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
 
-sudo apt install emacs git tmux nmap traceroute nfs-common openssh-server golang
-sudo timedatectl set-timezone Asia/Singapore
-#sudo systemctl set-default multi-user.target
-#sudo usermod -a -G audio nishant
+sudo apt install emacs git tmux
 
 BASH_FILE=${HOME}/.my_bash
 EMACS_FILE=${HOME}/.emacs
