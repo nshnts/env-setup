@@ -13,8 +13,7 @@ set_aliases_git() {
 }
 
 set_path() {
-    export GOPATH=$HOME/go
-    export PATH=$PATH:$GOPATH/bin
+    export PATH=$PATH:/usr/local/go/bin
 }
 
 set_colors() {
